@@ -46,8 +46,8 @@ namespace migrando_para_aws
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints=>{
-                endpoints.MapRazorPages();
-            });
+                endpoints.MapRazorPages();                
+            });            
             app.UseStaticFiles();
             app.UseCookiePolicy();            
         }
